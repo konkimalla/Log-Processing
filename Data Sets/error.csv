@@ -1,0 +1,187 @@
+api_uuid,code,type,msg,level,timestamp
+58fe380b18713,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:17
+58fe380b13720,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:18
+58fe380b14219,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:18
+58fe380b1511b,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:19
+58fe380b17cae,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:19
+58fe380b14948,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:20
+58fe380b1568d,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 13:21
+58fe380b1806f,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:21
+58fe380b14219,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:21
+58fe380b17f50,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:23
+58fe380b14219,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:24
+58fe380b193a6,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:25
+58fe380b17cae,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:26
+58fe380b178e4,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:26
+58fe380b12d3e,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:28
+58fe380b192e5,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:28
+58fe380b13f73,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:30
+58fe380b18c00,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 13:30
+58fe380b15fa0,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:30
+58fe380b17f50,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:30
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:31
+58fe380b15d5d,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:31
+58fe380b16ba0,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:34
+58fe380b17a7f,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:36
+58fe380b14097,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:36
+58fe380b16d20,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:36
+58fe380b16c60,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:37
+58fe380b13f12,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:38
+58fe380b192e5,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:39
+58fe380b16d20,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:39
+58fe380b18713,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:40
+58fe380b1806f,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:40
+58fe380b15cfe,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:40
+58fe380b178e4,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:43
+58fe380b13f12,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:43
+58fe380b12d3e,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:44
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:45
+58fe380b168e9,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:46
+58fe380b14219,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:47
+58fe380b16c60,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:47
+58fe380b13720,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:49
+58fe380b12d3e,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 13:50
+58fe380b15cfe,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:51
+58fe380b14948,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:51
+58fe380b15cfe,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:52
+58fe380b13382,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:53
+58fe380b164a9,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:53
+58fe380b1365e,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:55
+58fe380b14c2c,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 13:55
+58fe380b14219,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 13:55
+58fe380b1511b,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 13:57
+58fe380b168e9,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 13:59
+58fe380b34729,NOT404,APP,No Route found for /foo/bar,NOTE,4/24/2017 13:59
+58fe380b129e3,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 13:59
+58fe380b13f12,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:00
+58fe380b191c2,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 14:01
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:02
+58fe380b347b8,NOT404,APP,No Route found for /foo/bar,NOTE,4/24/2017 14:04
+58fe380b346ac,NOT404,APP,No Route found for /foo/bar,NOTE,4/24/2017 14:06
+58fe380b15fa0,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:06
+58fe380b15e7b,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 14:07
+58fe380b17a7f,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:08
+58fe380b18774,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:08
+58fe380b18c61,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 14:09
+58fe380b188f6,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 14:09
+58fe380b14219,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:09
+58fe380b13720,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:10
+58fe380b14581,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:11
+58fe380b164a9,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:12
+58fe380b191c2,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:14
+58fe380b34875,NOT404,APP,No Route found for /foo/bar,NOTE,4/24/2017 14:15
+58fe380b14219,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:15
+58fe380b14f35,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:16
+58fe380b193a6,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:16
+58fe380b15d5d,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:17
+58fe380b18713,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:19
+58fe380b15d5d,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:19
+58fe380b15b5c,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 14:20
+58fe380b17f50,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:20
+58fe380b192e5,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 14:22
+58fe380b17a7f,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:22
+58fe380b1365e,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:22
+58fe380b15d5d,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:23
+58fe380b1574e,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:23
+58fe380b178e4,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:26
+58fe380b15fa0,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:30
+58fe380b16ba0,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:30
+58fe380b13f12,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:34
+58fe380b15fa0,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:34
+58fe380b1806f,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 14:38
+58fe380b17a7f,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:40
+58fe380b15d5d,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:40
+58fe380b16c60,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:42
+58fe380b17a7f,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:43
+58fe380b16ba0,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 14:46
+58fe380b14948,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 14:47
+58fe380b16ba0,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:48
+58fe380b15198,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:50
+58fe380b13720,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:51
+58fe380b17cae,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:54
+58fe380b15cfe,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:54
+58fe380b18d8e,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:55
+58fe380b1694f,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 14:56
+58fe380b191c2,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:56
+58fe380b193a6,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 14:56
+58fe380b18713,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 14:57
+58fe380b14219,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 14:58
+58fe380b12860,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:02
+58fe380b142db,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:02
+58fe380b17cae,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:03
+58fe380b15cfe,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:04
+58fe380b18713,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:05
+58fe380b18e57,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:06
+58fe380b13f73,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:06
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:06
+58fe380b18774,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:06
+58fe380b14948,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:08
+58fe380b12d3e,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:09
+58fe380b14581,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:12
+58fe380b168e9,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:12
+58fe380b14581,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:13
+58fe380b17dd2,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:13
+58fe380b16d20,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:15
+58fe380b193a6,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:16
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:16
+58fe380b18774,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:17
+58fe380b14219,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:19
+58fe380b15198,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:21
+58fe380b193a6,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:22
+58fe380b1511b,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:23
+58fe380b168e9,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:24
+58fe380b13f12,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:25
+58fe380b17a7f,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:26
+58fe380b16c60,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:26
+58fe380b15cfe,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:27
+58fe380b12d3e,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:27
+58fe380b1365e,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:27
+58fe380b178e4,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:27
+58fe380b17f50,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:28
+58fe380b14581,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:28
+58fe380b13720,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:28
+58fe380b1556c,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:28
+58fe380b1806f,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:29
+58fe380b16d20,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:30
+58fe380b164a9,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:30
+58fe380b16c60,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:31
+58fe380b12d3e,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:32
+58fe380b191c2,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:35
+58fe380b15fa0,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:35
+58fe380b16ba0,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:36
+58fe380b13382,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:37
+58fe380b168e9,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:37
+58fe380b14097,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:37
+58fe380b14f35,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:38
+58fe380b14887,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:39
+58fe380b1684f,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:39
+58fe380b15fa0,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:40
+58fe380b18d8e,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:40
+58fe380b1433c,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:40
+58fe380b13720,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:41
+58fe380b17758,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:42
+58fe380b13963,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:43
+58fe380b14948,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:44
+58fe380b14f35,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:44
+58fe380b1556c,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:45
+58fe380b176f9,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:47
+58fe380b18774,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:50
+58fe380b16ba0,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:50
+58fe380b15d5d,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:50
+58fe380b18d8e,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:50
+58fe380b15bbd,INF243,APP,Cache Miss entity: 22,INFO,4/24/2017 15:51
+58fe380b14581,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:52
+58fe380b1574e,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:53
+58fe380b178e4,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:53
+58fe380b15fa0,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 15:53
+58fe380b12d3e,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:54
+58fe380b193a6,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:56
+58fe380b18d8e,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 15:56
+58fe380b14948,ERR443,APP,MYSQL went away (Lost Connection),ERR,4/24/2017 15:57
+58fe380b1511b,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:57
+58fe380b17f50,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 15:57
+58fe380b13382,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 16:01
+58fe380b14f35,ERR213,SYS,"Java GC collect failled, no memory to allocate",CRIT,4/24/2017 16:02
+58fe380b13f73,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 16:03
+58fe380b14948,ERR152,APP,CURL FAILURE: www.abc.com returned 400,ERR,4/24/2017 16:04
+58fe380b18d8e,ERR446,APP,UNHANDLED EXCEPTION: Invalid arg exec thrown but not caught ,ERR,4/24/2017 16:04

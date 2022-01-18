@@ -1,0 +1,11 @@
+id,name,parent_id,status,amt,date,parent_name
+12,Lays Chips,1,PRE_ORDER,0,1/15/2016 14:11,Food
+13,Sun Chips,1,ON_SALE,42,2/11/2016 11:10,Food
+14,Snacky Poofs,1,ON_SALE,66,2/11/2017 11:10,Food
+27,Bud Light,2,ON_SALE,12,2/16/2017 12:10,Drinks
+28,Coke,2,ON_SALE,212,12/16/2016 14:20,Drinks
+28,Ice Tea,2,ON_SALE,22,10/6/2016 18:10,Drinks
+22,Poker Chips Number 55,5,ON_BACKORDER,0,1/15/2017 14:11,Casino Stuffs
+24,Poker Chips Gold Edition,5,ON_SALE,231,3/15/2017 1:11,Casino Stuffs
+27,Playing Cards - Plastic,5,ON_SALE,9381,1/12/2017 3:31,Casino Stuffs
+27,Playing Cards - Gold Standard,5,ON_SALE,91,2/22/2017 13:02,Casino Stuffs

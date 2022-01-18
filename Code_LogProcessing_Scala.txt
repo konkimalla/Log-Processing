@@ -1,0 +1,63 @@
+﻿import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.udf
+
+def getEntity:(String => String) = {
+  d => d.substring(d.indexOf("entityId=")+"entityId=".length())
+}
+val myUDF = udf(getEntity)
+
+val spark = SparkSession.builder().getOrCreate()
+val dfEntity = spark.read.option("header","true").option("inferSchema","true").csv("entity.csv")
+//dfEntity.printSchema()
+val dfError = spark.read.option("header","true").option("inferSchema","true").csv("error.csv").toDF().withColumnRenamed("timestamp", "errortimestamp").toDF().withColumnRenamed("api_uuid", "error_api_uuid")
+//dfError.printSchema()
+val dfApi = spark.read.option("header","true").option("inferSchema","true").csv("api.csv").toDF().withColumnRenamed("timestamp", "apitimestamp")
+val dfApiNew = dfApi.withColumn("apiEntityid", when(dfApi("params").contains("entityId="), myUDF(dfApi("params"))).otherwise(0))
+//dfApiNew.printSchema()
+
+val dfApiError = dfApiNew.join(dfError, dfApiNew("api_uuid").equalTo(dfError("error_api_uuid")),"left")
+//dfApiError.printSchema()
+dfApiError.count()
+
+val dfApiErrorEntity = dfApiError.join(dfEntity, dfApiError("apiEntityid").equalTo(dfEntity("id")),"left")
+//dfApiErrorEntity.printSchema()
+dfApiErrorEntity.count()
+dfApiErrorEntity.coalesce(1).write.format("com.databricks.spark.csv").option("header", "true").save("apierrorentityfinal.csv")
+
+//http status code filter
+dfApiErrorEntity.filter($"http_status_code"===200).count()
+
+//avg Response Time (MS) for all routes
+dfApiErrorEntity.select(sum("response_time_ms")).show()
+dfApiErrorEntity.select(avg("response_time_ms")).show()
+
+//1.	Which endpoint has the most internal server errors (eg. HTTP Status Code = 500)
+println("answer for 1 is" + dfApi.filter($"http_status_code"===500).groupBy("route","http_status_code").count().orderBy($"count".desc).first()(0))
+
+//2.	When endpoint generates the most errors in the error log?
+println("answer for 2 is" + dfApiErrorEntity.filter($"error_api_uuid".isNotNull).groupBy("route").count().orderBy($"count".desc).first()(0))
+
+//3.	What is the fastest (avg response time in ms) API endpoint?
+println("answer for 3 is" + dfApi.groupBy("route").min("response_time_ms").orderBy($"min(response_time_ms)").first()(0))
+
+//4.	What is the slowest (avg response time in API endpoint?
+println("answer for 4 is" + dfApi.groupBy("route").max("response_time_ms").orderBy($"max(response_time_ms)".desc).first()(0))
+
+//5.	What the average response time for the “/entity/find/” endpoint?
+println("answer for 5 is" + dfApi.filter($"route"==="/entity/find/").select(avg("response_time_ms")).first()(0))
+
+//6.	What Entities have nothing in stock?
+println("answer for 6 is")
+dfEntity.filter($"status" =!= "ON_SALE").select("name").collect().foreach(println)
+
+//7.	What is the average amt for all Food types AKA entity parent_id = 1
+println("answer for 7 is" + dfEntity.filter($"parent_id" === 1).select(avg("amt")).first()(0))
+
+//8.	Which Entity gets accessed the most via the API?
+println("answer for 8 is" + dfApiErrorEntity.filter($"id".isNotNull).groupBy("id").count().orderBy($"count".desc).first()(0))
+
+//What day had the most api traffic?
+println("answer for 9 is" + dfApi.withColumn("apiday", dayofmonth(dfApi("apitimestamp"))).groupBy("apiday").count().orderBy($"count".desc).first()(0))
+
+//10.	What day had the most errors?
+println("answer for 10 is" + dfError.withColumn("errorday", dayofmonth(to_timestamp(dfError("errortimestamp")))).groupBy("errorday").count().orderBy($"count".desc).first()(0))
